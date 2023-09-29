@@ -79,6 +79,7 @@ function reload(arr) {
             let pr = prompt("text")
             title_text.textContent = pr
             title_text.classList.toggle('text_dic')
+            document.querySelector('.modal').classList.add('show')
         }
 
     }
