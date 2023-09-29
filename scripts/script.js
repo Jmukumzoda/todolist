@@ -78,6 +78,7 @@ function reload(arr) {
         title_text.ondblclick = () => {
             let pr = prompt("text")
             title_text.textContent = pr
+            title_text.classList.toggle('text_dic')
         }
 
     }
