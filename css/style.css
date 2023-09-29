@@ -167,8 +167,5 @@ img {
 }
 .show {
   display: flex;
-  background: #F5F5F7;
-  width: 50%;
-  height: 181px;
   transition: 0.3s ease-in-out;
 }
