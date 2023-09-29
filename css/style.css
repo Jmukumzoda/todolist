@@ -18,12 +18,14 @@ img {
 .to-do {
   margin-top: 40px;
 }
+
 .to-do .wrap {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .to-do .wrap h1 {
   color: #000;
   text-align: center;
@@ -33,9 +35,11 @@ img {
   font-weight: 700;
   line-height: normal;
 }
+
 .to-do .wrap form {
   margin-top: 22px;
 }
+
 .to-do .wrap form input {
   width: 321px;
   height: 42px;
@@ -49,6 +53,7 @@ img {
   font-weight: 600;
   line-height: normal;
 }
+
 .to-do .wrap form button {
   width: 155px;
   height: 42px;
@@ -67,16 +72,19 @@ img {
 .todos {
   margin-top: 42px;
 }
+
 .todos hr {
   width: 71%;
   background: rgba(0, 0, 0, 0.25);
 }
+
 .todos .wrap {
   margin-top: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .todos .wrap .box {
   width: 70%;
   display: flex;
@@ -85,6 +93,7 @@ img {
   align-items: center;
   gap: 25px;
 }
+
 .todos .wrap .box .item {
   width: 282px;
   height: 90px;
@@ -92,12 +101,14 @@ img {
   border: 1px solid #007FFF;
   background: #F0F0F0;
 }
+
 .todos .wrap .box .item .wrapper {
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: start;
 }
+
 .todos .wrap .box .item .wrapper .info {
   display: flex;
   flex-direction: column;
@@ -105,6 +116,7 @@ img {
   justify-content: center;
   gap: 15px;
 }
+
 .todos .wrap .box .item .wrapper .info .title {
   color: #000;
   font-family: Gilroy;
@@ -114,6 +126,7 @@ img {
   line-height: normal;
   user-select: none;
 }
+
 .todos .wrap .box .item .wrapper .info .time {
   color: rgba(0, 0, 0, 0.55);
   font-family: Gilroy;
@@ -123,20 +136,26 @@ img {
   line-height: normal;
   user-select: none;
 }
+
 .todos .wrap .box .item .wrapper button {
   background: none;
   border: none;
   user-select: none;
 }
+
 .todos .wrap .box .item.done {
   border: 1px solid green;
-}/*# sourceMappingURL=style.css.map */
-.text_dic{
+}
+
+/*# sourceMappingURL=style.css.map */
+.text_dic {
   text-decoration: line-through;
 }
-.text_dic1{
+
+.text_dic1 {
   text-decoration: none;
 }
+
 .modal {
   max-width: 1600px;
   margin: 0 auto;
@@ -156,15 +175,16 @@ img {
 }
 
 .modal_text {
-  max-width: 1400px;
-  margin-left: 330px;
+  margin: 0 auto;
 }
-.imp{
-  margin-top: 30px;
+
+.imp {
+  margin-top: 130px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .show {
   display: flex;
   transition: 0.3s ease-in-out;
